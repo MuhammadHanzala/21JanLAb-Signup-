@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<link href="style.css" type="text/css" rel="stylesheet" / >
+</head>
+<body>
+    
+<input type="button" class="btn5 btn" onClick="" value="Sign Up">
+<input type="button" class="btn5 btn" onClick="" value="Log In">
+    
+
+
+        <div id="signupModal" class="modal">
+
+            <div class="modalContent">
+                <br>
+                <center><h2 class="logHd">Create New Account</h2></center>
+                <hr>
+                <center><p id="demo"></p>
+                <input type="text" class="inpt" id="usrName" placeholder="Full Name"><br><br>
+                <input type="text" class="inpt" id="usrEmail" placeholder="Email Address"><br><br>
+                <input type="password" class="inpt" id="usrPass" placeholder="Password">
+                <br><br>
+                <input type="button" class="btn5 btn" onClick="signUp()" value="Create Account">
+                <input type="button" class="btn btn4" value="Close">
+                <br></center>
+            </div>
+        </div>
+
+
+        <div id="loginModal" class="modal">
+
+            <div class="modalContent">
+                <br>
+                <center><h2 class="logHd">Log In to your  Account</h2></center>
+                <hr>
+                <center><p id="ldemo"></p>
+                <input type="text" class="inpt" id="userName" placeholder="Your Name"><br><br>
+                <input type="text" class="inpt" id="userEmail" placeholder="Email Address"><br><br>
+                <input type="password" class="inpt" id="userPass" placeholder="Password">
+                <br><br>
+                <input type="button" class="btn5 btn" onClick="logIn()" value="Log In">
+                <input type="button" class="btn btn4" value="Close">
+                <br></center>
+            </div>
+        </div>
+
+    <script src="app.js">
+        
+    </script>
+</body>
+</html>
